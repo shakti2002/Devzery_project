@@ -1,4 +1,4 @@
-### API Chaining Dashboard
+# API Chaining Dashboard
 This project is a responsive web application that demonstrates the ability to handle complex API interactions, including both GET and POST requests. The dashboard chains multiple API calls together, where the response from one API is used as a parameter or in the request body of subsequent API requests. This project showcases proficiency in asynchronous operations, state management, and data transformation.
 
 ## Table of Contents
@@ -13,20 +13,24 @@ Error Handling
 
 ## Tech Stack
 React.js: JavaScript library for building user interfaces.
+
 Tailwind CSS: Utility-first CSS framework for styling the app.
+
 Axios: HTTP client for API calls.
+
 Git: Version control for managing code.
+
 REST API: Integration of APIs to demonstrate API chaining.
 
 
 ## APIs Used
-# Get Users List
-# Endpoint: GET https://jsonplaceholder.typicode.com/users
-# Response: An array of user objects containing id, name, and email.
+### Get Users List
+### Endpoint: GET https://jsonplaceholder.typicode.com/users
+### Response: An array of user objects containing id, name, and email.
 
-# Create New Post
-# Endpoint: POST https://jsonplaceholder.typicode.com/posts
-# Request Body:
+### Create New Post
+### Endpoint: POST https://jsonplaceholder.typicode.com/posts
+### Request Body:
 
 json
 Copy code
@@ -37,10 +41,10 @@ Copy code
 }
 Response: The created post object with id, title, body, and userId.
 
-# Get Comments by Post
-# Endpoint: GET https://jsonplaceholder.typicode.com/comments?postId={postId}
-# Required Parameter: postId
-# Response: An array of comment objects.
+### Get Comments by Post
+### Endpoint: GET https://jsonplaceholder.typicode.com/comments?postId={postId}
+### Required Parameter: postId
+### Response: An array of comment objects.
 
 
 ## Features
@@ -74,11 +78,11 @@ npm start
 
 
 ## How to Run the Application
-# Start the development server: After running npm start, the React app will be served at http://localhost:3000.
+### Start the development server: After running npm start, the React app will be served at http://localhost:3000.
 
-# Select a user: The app will display a dropdown of users fetched from the Get Users List API. Choose a user to proceed.
+### Select a user: The app will display a dropdown of users fetched from the Get Users List API. Choose a user to proceed.
 
-# Create a post:
+### Create a post:
 
 Input the title and body of the post.
 Select the user for whom the post will be created.
